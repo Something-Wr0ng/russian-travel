@@ -1,7 +1,35 @@
 @import url("./vendor/fonts.css");
 .page {
+  max-width: 1280px;
   background: #2a2c2f;
   color: #fff;
-  margin: 0;
+  margin: 0 auto;
   font-family: 'Inter';
+  box-sizing: border-box;
+  padding: 28px 0 24px;
+  display: flex;
+  flex-direction: column;
 }
+
+.header {
+  max-width: 1184px;
+  height: 52px;
+  padding: 0 48px 0;
+  display: flex;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+}
+
+.header__lang-link {
+  text-decoration: none;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 18px;
+}
+
