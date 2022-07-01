@@ -93,14 +93,17 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
+  margin: 0;
 }
 
 .intro__text {
   font-style: normal;
+  max-width: 690px;
+  margin: 40px auto 0 ;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  max-width: 690px;
 }
 
 .intro__list {
@@ -108,4 +111,18 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 33px;
+}
+.intro__list-item {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+}
+.intro__list-item_weight_normal {
+  font-weight: 400;
 }
