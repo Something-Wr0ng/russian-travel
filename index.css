@@ -108,9 +108,6 @@
 
 .intro__list {
   font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 18px;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -123,6 +120,20 @@
   line-height: 18px;
   margin: 0;
 }
+
 .intro__list-item_weight_normal {
   font-weight: 400;
+}
+
+.photo-grid {
+  max-width: 1184px;
+  margin: 0 auto 0;
+  padding-top: 92px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.photo-grid__item {
+  max-width: 284px;
 }
