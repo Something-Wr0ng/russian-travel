@@ -24,6 +24,11 @@
   margin-right: auto;
 }
 
+.header__lang-list {
+  list-style: none;
+  display: flex;
+}
+
 .header__lang-link {
   text-decoration: none;
   color: #fff;
@@ -33,6 +38,10 @@
   line-height: 28px;
   margin-top: 18px;
   padding-left: 18px;
+}
+
+.header__lang-link_active {
+  text-decoration: underline;
 }
 
 .content {
@@ -85,7 +94,7 @@
   max-width: 984px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto 0;
+  margin: 0 0 0 148px;
 }
 
 .intro__title {
@@ -99,7 +108,7 @@
 .intro__text {
   font-style: normal;
   max-width: 690px;
-  margin: 40px auto 0 ;
+  margin: 40px 0 0;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -139,23 +148,20 @@
 }
 
 .places {
-  max-width: 984px;
   margin: 0 auto 0;
-}
-
-.places__container {
   list-style: none;
   padding: 92px 0 0;
-  margin: 0;
-  display: grid;
+  display: flex;
   gap: 80px;
+  flex-direction: column;
+  max-width: 984px;
+  min-width: 984px;
 }
 
 .place {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-height: 660px;
+  display: grid;
+  /*grid-template-columns: 244px 100px;
+  grid-template-rows: 150px 150px;*/
 }
 
 .place__title {
@@ -164,6 +170,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  max-width: 460px;
 }
 
 .place__image {
@@ -174,6 +181,8 @@
 .place__website {
   display: flex;
   flex-direction: column;
+  max-width: 456px;
+  max-height: 46px;
 
 }
 
@@ -194,7 +203,7 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #fff;
-  margin: 12px 0 0;
+  margin: 0;
 
 }
 
@@ -202,3 +211,33 @@
   margin: 0;
   max-width: 484px;
 }
+
+.cover {
+
+}
+
+.cover__overlay {
+  margin: 0 auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  background-image: url(./images/cover-trains.jpg);
+  min-height: 740px;
+  max-width: 1184px;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.cover__title {
+
+}
+
+.cover__subtitle{
+
+}
+
