@@ -47,6 +47,7 @@
 .content {
   display: flex;
   flex-direction: column;
+  gap: 92px;
 }
 
 .lead {
@@ -90,7 +91,6 @@
 }
 
 .intro {
-  padding-top: 92px;
   max-width: 984px;
   display: flex;
   flex-direction: column;
@@ -137,7 +137,6 @@
 .photo-grid {
   max-width: 1184px;
   margin: 0 auto 0;
-  padding-top: 92px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 16px;
@@ -150,7 +149,7 @@
 .places {
   margin: 0 auto 0;
   list-style: none;
-  padding: 92px 0 0;
+  padding: 0;
   display: flex;
   gap: 80px;
   flex-direction: column;
@@ -159,9 +158,13 @@
 }
 
 .place {
-  display: grid;
   /*grid-template-columns: 244px 100px;
   grid-template-rows: 150px 150px;*/
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content min-content;
+  column-gap: 48px;
+  row-gap: 40px;
 }
 
 .place__title {
@@ -175,7 +178,7 @@
 
 .place__image {
   max-width: 460px;
-  margin: 48px 0 0;
+  margin: 0;
 }
 
 .place__website {
@@ -207,9 +210,15 @@
 
 }
 
+.place__description {
+  max-width: 484px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
 .place__paragraph {
   margin: 0;
-  max-width: 484px;
 }
 
 .cover {
