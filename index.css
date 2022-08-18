@@ -1,3 +1,4 @@
+@import url("./vendor/normalize.css");
 @import url("./vendor/fonts.css");
 .page {
   max-width: 1280px;
@@ -106,7 +107,6 @@
 }
 
 .intro__text {
-  font-style: normal;
   max-width: 690px;
   margin: 40px 0 0;
   font-style: normal;
@@ -124,6 +124,7 @@
   margin-top: 33px;
 }
 .intro__list-item {
+  font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
@@ -184,6 +185,7 @@
 .place__website {
   display: flex;
   flex-direction: column;
+  align-self: flex-end;
   max-width: 456px;
   max-height: 46px;
 
@@ -207,7 +209,6 @@
   text-decoration-line: underline;
   color: #fff;
   margin: 0;
-
 }
 
 .place__description {
@@ -239,14 +240,82 @@
   box-sizing: border-box;
   background-size: contain;
   background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.cover__overlay::before {
+  content: '';
+  background: #2a2c2f;
+  opacity: 0.3;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 
 }
 
 .cover__title {
-
+  margin: 0;
+  color: #fff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
+  text-align: center;
+  max-width: 560px;
+  max-height: 152px;
 }
 
-.cover__subtitle{
-
+.cover__subtitle {
+  margin: 32px 0 0;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  text-align: center;
+  max-width: 360px;
+  max-height: 66px;
 }
 
+.footer {
+  margin: 0 auto 0;
+  min-width: 1184px;
+  display: flex;
+  align-items: baseline;
+  padding-top: 92px;
+}
+
+.navigation
+
+.navigation__links-list {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-align: right;
+  margin-left: auto;
+}
