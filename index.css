@@ -33,10 +33,13 @@
 .header__lang-link {
   text-decoration: none;
   color: #fff;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+  /* identical to box height, or 117% */
+  text-align: right;
   margin-top: 18px;
   padding-left: 18px;
 }
@@ -60,8 +63,12 @@
 }
 
 .lead__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
   font-size: 96px;
   line-height: 100px;
+  /* or 104% */
   text-align: center;
   margin: 0 auto 0;
   max-width: 720px;
@@ -69,8 +76,12 @@
 }
 
 .lead__subtitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
   font-size: 30px;
   line-height: 36px;
+  /* or 120% */
   text-align: center;
   margin: 32px auto 0;
   max-width: 640px;
@@ -99,20 +110,24 @@
 }
 
 .intro__title {
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
+  /* identical to box height, or 107% */
   margin: 0;
 }
 
 .intro__text {
   max-width: 690px;
   margin: 40px 0 0;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 163%;
+  /* or 26px */
 }
 
 .intro__list {
@@ -123,7 +138,9 @@
   padding: 0;
   margin-top: 33px;
 }
+
 .intro__list-item {
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -164,12 +181,13 @@
   display: grid;
   grid-template-columns: min-content 1fr;
   grid-template-rows: min-content min-content;
-  column-gap: 48px;
-  row-gap: 40px;
+  column-gap: 40px;
+  row-gap: 48px;
 }
 
 .place__title {
   margin: 0;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -194,18 +212,23 @@
 .place__url-heading {
   text-transform: uppercase;
   margin: 0;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
   letter-spacing: 2px;
+  color: #AAAAAA;
 }
 
 .place__link {
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  /* identical to box height, or 122% */
   text-decoration-line: underline;
   color: #fff;
   margin: 0;
@@ -220,6 +243,11 @@
 
 .place__paragraph {
   margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
 }
 
 .cover {
@@ -259,6 +287,7 @@
 .cover__title {
   margin: 0;
   color: #fff;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -273,6 +302,7 @@
   margin: 32px 0 0;
   color: #fff;
   font-style: normal;
+  font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -283,11 +313,11 @@
 }
 
 .footer {
-  margin: 0 auto 0;
-  min-width: 1184px;
+  margin: 0;
+  max-width: 1184px;
   display: flex;
   align-items: baseline;
-  padding-top: 92px;
+  padding: 92px 48px 0;
 }
 
 .navigation
