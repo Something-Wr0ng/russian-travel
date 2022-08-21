@@ -62,6 +62,24 @@
   margin: 0 auto 0;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .lead {
+    max-width: 928px;
+  } 
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  . {
+    
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  . {
+    
+  } 
+}
+
 .lead__title {
   font-family: 'Inter';
   font-style: normal;
@@ -103,10 +121,28 @@
 }
 
 .intro {
-  max-width: 984px;
+  min-width: 984px;
   display: flex;
   flex-direction: column;
-  margin: 0 0 0 148px;
+  margin: 0 auto 0;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .intro {
+    min-width: 928px;
+  } 
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  . {
+    
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  . {
+    
+  } 
 }
 
 .intro__title {
@@ -160,6 +196,26 @@
   gap: 16px;
 }
 
+@media screen and (max-width: 1190px) and (min-width: 769px) {
+  .photo-grid {
+    max-width: 928px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+  } 
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  . {
+    
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  . {
+    
+  } 
+}
+
 .photo-grid__item {
   max-width: 284px;
 }
@@ -172,17 +228,50 @@
   gap: 80px;
   flex-direction: column;
   max-width: 984px;
-  min-width: 984px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .places {
+    max-width: 928px;
+  } 
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  . {
+    
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  . {
+    
+  } 
 }
 
 .place {
-  /*grid-template-columns: 244px 100px;
-  grid-template-rows: 150px 150px;*/
   display: grid;
   grid-template-columns: min-content 1fr;
   grid-template-rows: min-content min-content;
   column-gap: 40px;
   row-gap: 48px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .place {
+    column-gap: 32px;
+  } 
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  . {
+    
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  . {
+    
+  } 
 }
 
 .place__title {
@@ -195,9 +284,45 @@
   max-width: 460px;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .place__title {
+    max-width: 440px;
+  } 
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  . {
+    
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  . {
+    
+  } 
+}
+
 .place__image {
   max-width: 460px;
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .place__image {
+    max-width: 440px;
+  } 
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  . {
+    
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  . {
+    
+  } 
 }
 
 .place__website {
@@ -247,6 +372,24 @@
   gap: 26px;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .place__description {
+    max-width: 456px;
+  } 
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  . {
+    
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  . {
+    
+  } 
+}
+
 .place__paragraph {
   margin: 0;
   font-family: 'Inter';
@@ -275,6 +418,24 @@
   background-size: contain;
   background-repeat: no-repeat;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1184px) and (min-width: 769px) {
+  .cover__overlay {
+    min-height: calc((100vw/1.6));
+  } 
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  . {
+    
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  . {
+    
+  } 
 }
 
 .cover__overlay::before {
@@ -365,4 +526,37 @@
   /* identical to box height, or 114% */
   text-align: right;
   margin-left: auto;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  . {
+
+  } 
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  . {
+    
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  . {
+    
+  } 
+}
+
+
+
+
+@media screen and (max-width: ) and (min-width: ) {
+  
+}
+
+@media screen and (max-width: ) and (min-width: ) {
+  
+}
+
+@media screen and (max-width: ) and (min-width: ) {
+  
 }
