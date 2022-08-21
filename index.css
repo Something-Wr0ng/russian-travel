@@ -232,6 +232,12 @@
   text-decoration-line: underline;
   color: #fff;
   margin: 0;
+  transition-duration: 0.5s;
+}
+
+.place__link:hover {
+  transition-duration: 0.5s;
+  opacity: 0.8;
 }
 
 .place__description {
@@ -272,16 +278,21 @@
 }
 
 .cover__overlay::before {
-  content: '';
   background: #2a2c2f;
-  opacity: 0.3;
   z-index: -1;
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  opacity: 0.3;
+  transition-duration: 0.5s;
+}
 
+.cover__overlay:hover::before {
+  transition-duration: 0.5s;
+  opacity: 0.8;
 }
 
 .cover__title {
@@ -338,6 +349,12 @@
   /* identical to box height, or 112% */
   text-decoration: none;
   color: #fff;
+  transition-duration: 0.5s;
+}
+
+.navigation__link:hover {
+  transition-duration: 0.5s;
+  opacity: 0.8;
 }
 
 .footer__copyright {
