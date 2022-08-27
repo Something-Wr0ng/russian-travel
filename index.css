@@ -328,7 +328,6 @@
   margin: 0 auto 0;
   padding: 0 148px 0;
   list-style: none;
-  padding: 0;
   display: grid;
   grid-template-columns: 1fr;
   gap: 80px;
@@ -338,6 +337,7 @@
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .places {
     max-width: 928px;
+    padding: 0 48px 0;
   } 
 }
 
@@ -357,8 +357,8 @@
 
 .place {
   display: grid;
-  grid-template-columns: min-content 1fr;
-  grid-template-rows: min-content min-content;
+  grid-template-columns: minmax(calc(50% - 40px), max-content) minmax(calc(50% - 40px), max-content);
+  grid-template-rows: 1fr min-content;
   column-gap: 40px;
   row-gap: 48px;
   max-width: 984px;
@@ -422,6 +422,7 @@
 
 .place__image {
   max-width: 460px;
+  width: 100%;
   margin: 0;
 }
 
