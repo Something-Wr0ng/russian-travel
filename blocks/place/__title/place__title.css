@@ -8,13 +8,13 @@
   max-width: 460px;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1060px) and (min-width: 901px) {
   .place__title {
     max-width: 440px;
   } 
 }
 
-@media screen and (max-width: 768px) and (min-width: 321px) {
+@media screen and (max-width: 900px) and (min-width: 471px) {
   .place__title {
     max-width: 340px;
     font-size: 42px;
@@ -22,7 +22,7 @@
   } 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 470px) {
   .place__title {
     max-width: 288px;
     font-size: 32px;

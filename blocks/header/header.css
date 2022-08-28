@@ -5,13 +5,13 @@
   display: flex;
 }
 
-@media screen and (max-width: 768px) and (min-width: 361px) {
+@media screen and (max-width: 768px) and (min-width: 521px) {
   .header {
     padding: 0 24px 0;
   } 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 520px) {
   .header {
     padding: 0 16px 0;
     height: 42px;
