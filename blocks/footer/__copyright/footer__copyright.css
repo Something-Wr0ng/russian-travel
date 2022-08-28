@@ -1,0 +1,21 @@
+.footer__copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-align: right;
+  margin: 0 0 0 auto;
+}
+
+@media screen and (max-width: 676px) and (min-width: 361px) {
+  .footer__copyright {
+    align-self: flex-end;
+  } 
+}
+
+@media screen and (max-width: 360px) {
+  .footer__copyright {
+    margin: 48px 0 0;
+  } 
+}

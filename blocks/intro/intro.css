@@ -1,0 +1,28 @@
+.intro {
+  min-width: 984px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 930px) {
+  .intro {
+    min-width: 100%;
+    padding: 0 48px 0;
+  } 
+}
+
+@media screen and (max-width: 929px) and (min-width: 361px) {
+  .intro {
+    min-width: 100%;
+    padding: 0 24px 0;
+  } 
+}
+
+@media screen and (max-width: 360px) {
+  .intro {
+    min-width: 100%;
+    padding: 0 16px 0;
+  } 
+}

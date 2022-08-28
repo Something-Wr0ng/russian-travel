@@ -1,0 +1,13 @@
+.navigation__links-list {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 676px) {
+  .navigation__links-list {
+    flex-direction: column;
+  } 
+}
