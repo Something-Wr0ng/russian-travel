@@ -9,9 +9,7 @@
   background-image: url("../../../images/cover-trains.jpg");
   min-height: 740px;
   max-width: 1184px;
-  box-sizing: border-box;
   background-size: contain;
-  background-repeat: no-repeat;
   text-decoration: none;
 }
 
