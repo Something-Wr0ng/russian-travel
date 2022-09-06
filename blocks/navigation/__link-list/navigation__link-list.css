@@ -9,5 +9,6 @@
 @media screen and (max-width: 676px) {
   .navigation__links-list {
     flex-direction: column;
+    gap: 32px;
   } 
 }

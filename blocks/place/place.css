@@ -14,14 +14,14 @@
   } 
 }
 
-@media screen and (max-width: 900px) and (min-width: 471px) {
+@media screen and (max-width: 900px) and (min-width: 621px) {
   .place {
     column-gap: 28px;
     grid-template-columns: minmax(34px, 340px) minmax(35.2px, 352px);
   } 
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 620px) {
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

@@ -5,29 +5,21 @@
   gap: 26px;
 }
 
-@media screen and (max-width: 1060px) and (min-width: 901px) {
+@media screen and (max-width: 1060px) {
   .place__description {
     max-width: 456px;
   } 
 }
 
-@media screen and (max-width: 900px) and (min-width: 461px) {
+@media screen and (max-width: 900px) {
   .place__description {
     max-width: 352px;
     gap: 25px;
   } 
 }
 
-@media screen and (max-width: 460px) and (min-width: 371px) {
+@media screen and (max-width: 470px) {
   .place__description {
-    gap: 25px;
-    margin: 0 16px 0;
-  } 
-}
-
-@media screen and (max-width: 370px) {
-  .place__description {
-    gap: 25px;
     margin: 0 16px 0;
   } 
 }
