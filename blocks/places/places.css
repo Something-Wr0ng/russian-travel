@@ -8,18 +8,24 @@
   max-width: 984px;
 }
 
-@media screen and (max-width: 1060px) and (min-width: 901px) {
+@media screen and (max-width: 1060px) {
   .places {
     max-width: 928px;
     padding: 0 48px 0;
   } 
 }
 
-@media screen and (max-width: 900px) and (min-width: 471px) {
+@media screen and (max-width: 900px) {
   .places {
     max-width: 768px;
     padding: 0 24px 0;
     gap: 73px;
+  } 
+}
+
+@media screen and (max-width: 620px) {
+  .places {
+    max-width: 460px;
   } 
 }
 
